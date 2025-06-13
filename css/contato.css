@@ -1,0 +1,95 @@
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+main img{
+    width: 10rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #3f7a53;
+}
+
+.intro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.intro h1 {
+    color: #028679;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.intro p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+.cards div{
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   
+    background: #E6F6F2;
+}
+    
+.beneficios h2{
+    color: #028679;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+.nossosValores h2{
+    color: #028679;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}
+.contato h2{
+    color: #028679;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+.contato p{
+    color: #1a1a1a;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+    margin-bottom: 0;
+}
+    

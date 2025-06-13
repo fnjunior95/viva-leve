@@ -1,0 +1,48 @@
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+.container img{
+width: 5rem;
+height: 5rem;
+object-fit: cover;
+margin-bottom: 1rem;
+background-color: #e0f2f1;
+border-radius: 50%;
+    box-shadow: 0 0 0 10px #7bb9b3;
+}
+h1{
+    font-size: 2rem;
+    color: #009688;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.cards {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dicas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
