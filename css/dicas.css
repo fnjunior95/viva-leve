@@ -21,11 +21,26 @@ background-color: #e0f2f1;
 border-radius: 50%;
     box-shadow: 0 0 0 10px #7bb9b3;
 }
-h1{
+.container h1{
     font-size: 2rem;
     color: #009688;
     margin-bottom: 2rem;
     text-align: center;
+}
+.container h2{
+    color: #009688;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+.container h3{
+    color: #009688;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.container p{
+    color: #555;
+    font-size: 1rem;  
 }
 .cards {
     background-color: white;
@@ -34,9 +49,11 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250px;
+    width: 17rem;
+    height: 15rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 4rem;
 }
 
 .dicas{
