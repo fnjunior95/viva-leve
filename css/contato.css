@@ -61,6 +61,18 @@ main img{
     padding-bottom: 0;
     text-align: center;
 }
+.beneficios li{
+    color: #414141;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+}
+.nossosValores li{
+    color: #414141;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-left: 1rem;
+}
 .nossosValores h2{
     color: #028679;
     font-size: 1.5rem;
